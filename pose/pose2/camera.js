@@ -15,9 +15,9 @@
  * =============================================================================
  */
 
-import * as posenet_module from '@tensorflow-models/posenet';
-import * as facemesh_module from '@tensorflow-models/facemesh';
-import * as tf from '@tensorflow/tfjs';
+import * as posenet_module from 'https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet';
+import * as facemesh_module from 'https://cdn.jsdelivr.net/npm/@tensorflow-models/facemesh';
+import * as tf from 'https://cdn.jsdelivr.net/npm/@tensorflow/tfjs';
 import * as paper from 'paper';
 import dat from 'dat.gui';
 import Stats from 'stats.js';
